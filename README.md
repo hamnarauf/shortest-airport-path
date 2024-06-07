@@ -16,7 +16,8 @@ The flow is as follows:
 The first step is to convert the list of airports and their connections into a graph. Each airport is represented as a node in the graph, and the connections between airports are represented as edges with a weight representing the cost of the connection.
 
 This is the graphical representation of airports in [airports_data.json](./data/airports_data.json)
-![](./diagrams/graph.png)
+
+<img src="diagrams/graph.png" alt="Graph" height="500">
 
 An adjacency list  is maintained for the graph. Graph is a python dictionary where keys are the nodes and values are lists of tuples representing the neighbors of each node and their costs.
 
