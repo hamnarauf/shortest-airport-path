@@ -76,6 +76,15 @@ python main.py
 
 This will prompt the user for the start and end airports and display the shortest path and its cost.
 
+### Sample input/output
+```
+Enter the start airport: ISB
+Enter the end airport: NYC
+
+Shortest Path: ['ISB', 'CBS', 'NYC']
+Cost: 1350
+```
+
 ## Time & space complexity
 
 Time complexity: O((V + E) logV)
