@@ -36,7 +36,7 @@ def dijkstra(graph, start, end):
 
         # If the current node is the end node, return the shortest path
         if current_node == end:
-            nodes_in_shortest_path = getPreviousNodes(
+            nodes_in_shortest_path = get_previous_nodes(
                 predecessors, start, end)
             return nodes_in_shortest_path, predecessors[current_node][1]
 
@@ -56,7 +56,7 @@ def dijkstra(graph, start, end):
     return None, None
 
 
-def getPreviousNodes(shortest_path, start, end):
+def get_previous_nodes(shortest_path, start, end):
     """Constructs the nodes in the shortest path from the start node to the end node.
 
     Args:
